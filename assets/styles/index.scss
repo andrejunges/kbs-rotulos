@@ -1,0 +1,24 @@
+/*
+Use `border-box` properly:
+https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+*/
+/* External CSS */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,500,700,400);
+
+html { box-sizing: border-box; }
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: Roboto, "Times New Roman", serif;
+}
+
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+/* Global CSS */
+@import "app.scss";
