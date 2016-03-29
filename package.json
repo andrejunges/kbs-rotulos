@@ -19,6 +19,7 @@
     "core-js": "^1.2.6",
     "es6-promise": "^3.0.2",
     "js-cookie": "^2.1.0",
+    "jspdf": "^1.2.61",
     "lodash": "^3.10.1",
     "material-ui": "^0.15.0-alpha.2",
     "moment": "^2.10.6",
