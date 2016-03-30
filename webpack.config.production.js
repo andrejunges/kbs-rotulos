@@ -9,7 +9,7 @@ module.exports = {
         path: path.join(__dirname, 'dist'),
         filename: 'bundle.js',
         chunkFilename: '[id].chunk.js',
-        publicPath: '/static/'
+        publicPath: '/public/'
     },
     plugins: [
         new webpack.optimize.OccurenceOrderPlugin(),
