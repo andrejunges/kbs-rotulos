@@ -1,9 +1,14 @@
 {
-  "firebase": "kbsrotulos",
-  "public": "./",
-  "ignore": [
-    "firebase.json",
-    "**/.*",
-    "**/node_modules/**"
-  ]
+    "firebase": "kbsrotulos",
+    "public": "./",
+    "rewrites": [{
+        "source": "**",
+            "destination": "/index.html"
+        }
+    ],
+    "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+    ]
 }
